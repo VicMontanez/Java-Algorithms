@@ -8,4 +8,10 @@
 package com.intro;
 
 public class firstHalf {
+    public String firstHalf(String str) {
+        String half =  str.substring(0, (str.length() / 2));
+
+        return half;
+    }
+
 }

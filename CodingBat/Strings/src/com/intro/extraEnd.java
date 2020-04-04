@@ -8,6 +8,20 @@
 package com.intro;
 
 public class extraEnd {
+    public String extraEnd(String str) {
+        String newString = "";
+
+        if (str.length() > 2)
+        {
+            newString = str.substring(str.length() - 2);
+        }
+        else
+        {
+            newString = str;
+        }
+
+        return newString + newString + newString;
+    }
 
 
 }

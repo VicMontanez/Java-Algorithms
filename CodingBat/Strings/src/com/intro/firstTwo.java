@@ -8,4 +8,17 @@
 package com.intro;
 
 public class firstTwo {
+    public String firstTwo(String str) {
+        String twoChar = "";
+
+        if (str.length() > 2) {
+            twoChar =  str.substring(0,2);
+        }
+        else {
+            twoChar =  str;
+        }
+
+        return twoChar;
+    }
+
 }

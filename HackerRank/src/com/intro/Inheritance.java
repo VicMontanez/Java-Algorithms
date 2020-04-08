@@ -1,3 +1,5 @@
+//https://www.hackerrank.com/challenges/30-inheritance/problem
+
 package com.intro;
 import java.util.*;
 

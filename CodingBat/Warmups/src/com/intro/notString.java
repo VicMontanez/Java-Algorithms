@@ -3,4 +3,12 @@
 package com.intro;
 
 public class notString {
+    public String notString(String str) {
+        String not = "not";
+        if (str.length()>=3 && str.substring(0,3).contains(not)) {
+            return str;
+        }
+        return not + " " + str;
+
+    }
 }

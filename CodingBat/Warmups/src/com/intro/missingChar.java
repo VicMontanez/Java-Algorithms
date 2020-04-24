@@ -3,4 +3,13 @@
 package com.intro;
 
 public class missingChar {
+    public String missingChar(String str, int n) {
+        String beginning = str.substring(0,n);
+
+        // String end = str.substring(n, str.length() - 1);
+
+        return beginning;
+    }
+
+
 }

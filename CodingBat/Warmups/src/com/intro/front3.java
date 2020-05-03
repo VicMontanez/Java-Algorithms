@@ -5,4 +5,14 @@
         package com.intro;
 
 public class front3 {
+    public String front3(String str) {
+        String three;
+
+        if (str.length() >= 3) {
+            three = str.substring(0,3);
+        } else {
+            three = str;
+        }
+        return three + three + three;
+    }
 }

@@ -3,4 +3,14 @@
 package com.intro;
 
 public class front22 {
+    public String front22(String str) {
+        String firstTwo;
+        if (str.length() <= 2 ) {
+            firstTwo = str;
+        } else {
+            firstTwo = str.substring(0,2);
+        }
+        return firstTwo + str + firstTwo;
+    }
+
 }

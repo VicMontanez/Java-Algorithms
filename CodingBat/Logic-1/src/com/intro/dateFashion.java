@@ -3,4 +3,15 @@
 package com.intro;
 
 public class dateFashion {
+    public int dateFashion(int you, int date) {
+        if(you < 3 || date < 3 ) {
+            return 0;
+        } else if (you >= 8 || 8 <= date) {
+            return 2;
+        }
+        else {
+            return 1;
+        }
+    }
+
 }

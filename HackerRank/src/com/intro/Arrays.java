@@ -15,7 +15,7 @@ public class Arrays {
 
 
 
-    public class Solution  {
+    public static class Solution  {
 
 
 

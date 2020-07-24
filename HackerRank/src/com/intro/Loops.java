@@ -13,7 +13,7 @@ import java.util.regex.*;
 public class Loops {
 
 
-    public class Solution {
+    public static class Solution {
 
 
 

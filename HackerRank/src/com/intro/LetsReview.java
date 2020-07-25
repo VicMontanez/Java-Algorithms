@@ -1,11 +1,12 @@
 //Given a string, , of length  that is indexed from  to , print its even-indexed and odd-indexed characters as  space-separated strings on a single line (see the Sample below for more detail).
 
 package com.intro;
-
-public class LetsReview {
-    import java.io.*;
+import java.io.*;
 import java.util.*;
 import java.util.Scanner;  // Import the Scanner class
+
+public class LetsReview {
+
 
     public class Solution {
 

@@ -3,4 +3,15 @@
 package com.intro;
 
 public class nearTen {
+    public boolean nearTen(int num) {
+        if ((num + 2) % 10 == 0) {
+            return true;
+        } else if((num - 2) % 10 == 0) {
+            return true;
+        }
+        else
+            return false;
+    }
+
+
 }

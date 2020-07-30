@@ -4,14 +4,14 @@ package com.intro;
 
 public class nearTen {
     public boolean nearTen(int num) {
-        if ((num + 2) % 10 == 0) {
+        if (num%10 <= 2 || num%10 >= 2) {
             return true;
-        } else if((num - 2) % 10 == 0) {
-            return true;
-        }
-        else
+        } else {
             return false;
+        }
     }
+
+
 
 
 }

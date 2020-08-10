@@ -10,7 +10,7 @@ import java.util.regex.*;
 public class SockMerchant {
 
 
-    public class Solution {
+    public static class Solution {
 
         // https://www.geeksforgeeks.org/java-util-hashmap-in-java-with-examples/
 
@@ -18,7 +18,7 @@ public class SockMerchant {
         static int sockMerchant(int n, int[] ar) {
             int pairs = 0;
 
-            // Create empty hashmap
+            // Create empty hash map
             HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 
             // Add ar indexes to the map
@@ -32,7 +32,7 @@ public class SockMerchant {
 
             // System.out.println(map);
 
-            // Loop through the hashmap
+            // Loop through the hash map
             for (Map.Entry socks : map.entrySet()) {
                 System.out.println(pairs += (int) socks.getValue() / 2);
             }

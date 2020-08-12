@@ -4,4 +4,13 @@
 package com.intro;
 
 public class mapBully {
+    public Map<String, String> mapBully(Map<String, String> map) {
+        if(map.containsKey("a")) {
+            map.get("a");
+            map.put("a", "");
+            map.put("b", "a");
+        }
+        return map;
+    }
+
 }

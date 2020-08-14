@@ -7,9 +7,9 @@ import java.util.Map;
 
 public class mapAB {
     public Map<String, String> mapAB(Map<String, String> map) {
-        if(map.containsKey("a") && map.containsKey("b")) {
-            String ab = "";
-            map.put("ab", map.get("a")+map.get("b"));
+        if(map.containsKey("a") && map.containsKey("b")) { // if statement if both keys have strings
+            String ab = ""; // create empty string for ab
+            map.put("ab", map.get("a")+map.get("b")); //bind strings and put them in ab variable
         }
         return map;
     }

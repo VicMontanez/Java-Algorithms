@@ -3,4 +3,12 @@
 package com.intro;
 
 public class mapAB {
+    public Map<String, String> mapAB(Map<String, String> map) {
+        if(map.containsKey("a") && map.containsKey("b")) {
+            String ab = "";
+            map.put("ab", map.get("a")+map.get("b"));
+        }
+        return map;
+    }
+
 }

@@ -2,6 +2,8 @@
 
 package com.intro;
 
+import java.util.Map;
+
 public class topping2 {
     public Map<String, String> topping2(Map<String, String> map) {
         if(map.containsKey("ice cream")) {

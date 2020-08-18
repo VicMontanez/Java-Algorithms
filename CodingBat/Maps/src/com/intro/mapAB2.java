@@ -2,6 +2,8 @@
 
 package com.intro;
 
+import java.util.Map;
+
 public class mapAB2 {
     public Map<String, String> mapAB2(Map<String, String> map) {
         String a = map.get("a");

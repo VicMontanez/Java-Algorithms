@@ -7,6 +7,8 @@ import java.text.*;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
+import java.util.Arrays;
+
 
 public class MinMaxSum {
 

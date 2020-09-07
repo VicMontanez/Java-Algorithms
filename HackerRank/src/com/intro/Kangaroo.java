@@ -3,11 +3,8 @@
 //The first kangaroo starts at location  and moves at a rate of  meters per jump.
 //The second kangaroo starts at location  and moves at a rate of  meters per jump.
 //You have to figure out a way to get both kangaroos at the same location at the same time as part of the show. If it is possible, return YES, otherwise return NO.
-
 package com.intro;
-
-public class Kangaroo {
-    import java.io.*;
+import java.io.*;
 import java.math.*;
 import java.security.*;
 import java.text.*;
@@ -15,13 +12,17 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-    public class Solution {
+
+
+public class Kangaroo {
+
+
+    public static class Solution {
 
         // Complete the kangaroo function below.
         static String kangaroo(int x1, int v1, int x2, int v2) {
             int sum = 0;
             int sum2 = 0;
-            if ()
 
         }
 

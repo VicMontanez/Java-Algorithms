@@ -17,12 +17,20 @@ import java.util.regex.*;
 public class Kangaroo {
 
 
+
     public static class Solution {
 
         // Complete the kangaroo function below.
         static String kangaroo(int x1, int v1, int x2, int v2) {
-            int sum = 0;
-            int sum2 = 0;
+            if(v2 >= v1) {
+                return "NO";
+            }
+            else if((x2-x1)== 0) {
+                return "YES";
+            }
+            else {
+                return "NO";
+            }
 
         }
 
@@ -51,5 +59,6 @@ public class Kangaroo {
             scanner.close();
         }
     }
+
 
 }

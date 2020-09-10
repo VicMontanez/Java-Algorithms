@@ -25,7 +25,7 @@ public class Kangaroo {
             if(v2 >= v1) {
                 return "NO";
             }
-            else if((x2-x1)== 0) {
+            else if((x2-x1) && (v2 - v1)== 0) {
                 return "YES";
             }
             else {

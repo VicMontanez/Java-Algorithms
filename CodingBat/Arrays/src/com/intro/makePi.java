@@ -3,4 +3,9 @@
 package com.intro;
 
 public class makePi {
+    public int[] makePi() {
+        int [] arrayPi = {3,1,4};
+        return arrayPi;
+    }
+
 }
